@@ -1,38 +1,170 @@
-.App {
-  text-align: center;
+.banner-container {
+  background-image: url(././img/bannerimg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  width: 1600px;
+  /* background-color: rgba(0, 0, 0, 0.1);
+  opacity: 0.8;
+  z-index: 1; */
+  /* background-color: aqua; */
+}
+.banner-content {
+  background-color: rgba(255, 255, 255, 0.6); /* Adjust opacity as needed */
+  background-blend-mode: overlay; /* Ensures the color blends with the image */
+  /* background-color: white; */
+}
+/* General styles for all selects */
+.custom-select-5 {
+  width: 100px;
+  padding: 10px;
+  font-size: 16px;
+  /* border: 1px solid #6e55ff; */
+  border-radius: 5px 5px 0px 0px;
+  background-color: #f9f9f9;
+  color: #333;
+  appearance: none;
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.custom-select-5 option {
+  padding: 8px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #333;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.custom-select-6 {
+  width: 100px;
+  padding: 10px;
+  font-size: 16px;
+  /* border: 1px solid #6e55ff; */
+  border-radius: 5px 5px 0px 0px;
+  background-color: #6e55ff;
   color: white;
+  appearance: none;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.custom-select-6 option {
+  padding: 8px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #333;
+}
+.custom-select-1 {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #6e55ff;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
+  appearance: none;
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.custom-select-1 option {
+  padding: 8px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #333;
+}
+.custom-select-2 {
+  width: 84px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #6e55ff;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
+  appearance: none;
+  cursor: pointer;
+}
+
+.custom-select-2 option {
+  padding: 8px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #333;
+}
+.custom-select-3 {
+  width: 100px;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  font-weight: 600;
+  border-radius: 5px;
+  /* background-color: #f9f9f9; */
+  color: #333;
+  appearance: none;
+  cursor: pointer;
+}
+
+.custom-select-3 option {
+  padding: 8px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #333;
+}
+.custom-select-4 {
+  width: 100px;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #6e55ff;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
+  appearance: none;
+  cursor: pointer;
+}
+
+.custom-select-4 option {
+  padding: 8px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #333;
+}
+.custom-select-7 {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #6e55ff;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
+  appearance: none;
+  cursor: pointer;
+}
+
+.custom-select-7 option {
+  padding: 8px;
+  font-size: 14px;
+  background-color: #fff;
+  color: #333;
+}
+
+.custom-select-1:hover {
+  border-color: #888;
+}
+
+.custom-select-1:focus {
+  outline: none;
+}
+
+/* Specific border colors for each select */
+.select-blue {
+  border-color: blue;
+}
+
+.select-red {
+  border-color: red;
+}
+.parent {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  width: 500px;
+  border-radius: 15px;
 }
